@@ -65,7 +65,7 @@ module.exports.connections = {
 //     database: 'Freewheeling'
 //   },
 
-  //mongodb://<dbuser>:<dbpassword>@ds063150.mongolab.com:63150/heroku_app32458215
+//mongodb://<dbuser>:<dbpassword>@ds063150.mongolab.com:63150/heroku_app32479034
 
   MongoDB: {
     adapter: 'sails-mongo',
@@ -73,7 +73,7 @@ module.exports.connections = {
     port: 63150,
 //    user: 'username',
 //    password: 'password',
-    database: 'heroku_app32458215'
+    database: 'heroku_app32479034'
   },
   // **************************************************************************
   // *                                                                          *
