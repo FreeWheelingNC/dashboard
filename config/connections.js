@@ -67,7 +67,7 @@ module.exports.connections = {
 
 //mongodb://<dbuser>:<dbpassword>@ds063150.mongolab.com:63150/heroku_app32479034
 
-  MongoDB: {
+  mongodb: {
     adapter: 'sails-mongo',
     host: 'ds063150.mongolab.com',
     port: 63150,
