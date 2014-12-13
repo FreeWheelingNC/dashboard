@@ -82,14 +82,14 @@ module.exports = {
 
     environment: process.env.NODE_ENV || 'development'
 connections: {
-  'default': 'MongoDB',
-   MongoDB: {
+  'default': 'mongodb',
+   mongodb: {
     adapter: 'sails-mongo',
     host: 'ds063150.mongolab.com',
     port: 63150,
 //    user: 'username',
 //    password: 'password',
-    database: 'heroku_app32458215'
+    database: 'heroku_app32479034'
   },
 }
    
