@@ -72,7 +72,7 @@ module.exports = {
    *                                                                         *
    * In production, Sails configures itself (and its dependencies) to        *
    * optimize performance. You should always put your app in production mode *
-   * before you deploy it to a server.  This helps ensure that your Sails    *
+   * before ybou deploy it to a server.  This helps ensure that your Sails    *
    * app remains stable, performant, and scalable.                           *
    *                                                                         *
    * By default, Sails sets its environment using the `NODE_ENV` environment *
@@ -87,8 +87,8 @@ connections: {
     adapter: 'sails-mongo',
     host: 'ds063150.mongolab.com',
     port: 63150,
-//    user: 'username',
-//    password: 'password',
+    user: 'sardeenz',
+    password: 'red5five',
     database: 'heroku_app32479034'
   },
 }
