@@ -19,13 +19,10 @@ angular.module('freewheeling')
         geojson: {}
 	});
 
-
-
     $http.get("/routes").success(function(data, status) {
         angular.extend($scope, {
             geojson: {
                 data: data
-                
                 }
             });
         });
