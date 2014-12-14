@@ -4,7 +4,7 @@ angular.module('freewheeling')
 		center: {
         lat: 35.843768,
         lng: -78.6450559,
-        zoom: 13
+        zoom: 11
       },
       layers: {
             baselayers: {
