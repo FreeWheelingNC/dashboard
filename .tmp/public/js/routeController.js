@@ -19,12 +19,35 @@ angular.module('freewheeling')
         geojson: {}
 	});
 
-    $http.get("/routes").success(function(data, status) {
+    io.socket.on('helloMessages', function (res){
+        console.log('res = ' + res);
+    });
+
+    io.socket.get('/routes');
+    io.socket.on('routes', function (res) {
+
+        console.log(res);
+        // if (res.verb == 'created') {
+            angular.extend($scope, {
+            geojson: {
+                data: res.data
+                }
+            });
+        // }
+        
+
+    });
+
+
+$http.get("/routes").success(function(data, status) {
         angular.extend($scope, {
             geojson: {
                 data: data
                 }
             });
         });
+    
+
+
 }]);
 

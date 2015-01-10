@@ -8,9 +8,16 @@
 module.exports = {
 
 	hello: function(req, res){
-		var name = req.param('name');
+		var name = req.query.name;
+		
+		sails.sockets.blast('helloMessages', name + ' from socket.io');
+	
 		res.send("hello " + name);
 	}
+
+	// routes: function(req, res) {
+		
+	// }
 	
 };
 
