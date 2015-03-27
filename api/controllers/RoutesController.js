@@ -7,13 +7,13 @@
 
 module.exports = {
 
-	hello: function(req, res){
-		var name = req.query.name;
+	// hello: function(req, res){
+	// 	var name = req.query.name;
 		
-		sails.sockets.blast('helloMessages', name + ' from socket.io');
+	// 	sails.sockets.blast('helloMessages', name + ' from socket.io');
 	
-		res.send("hello " + name);
-	}
+	// 	res.send("hello " + name);
+	// }
 
 	// routes: function(req, res) {
 		

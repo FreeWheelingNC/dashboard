@@ -19,9 +19,9 @@ angular.module('freewheeling')
         geojson: {}
 	});
 
-    io.socket.on('helloMessages', function (res){
-        console.log('res = ' + res);
-    });
+    // io.socket.on('helloMessages', function (res){
+    //     console.log('res = ' + res);
+    // });
 
     // io.socket.get('/routes');
     // io.socket.on('routes', function (res) {
@@ -36,7 +36,7 @@ angular.module('freewheeling')
         // }
         
 
-    });
+    // });
 
 
 $http.get("/routes").success(function(data, status) {

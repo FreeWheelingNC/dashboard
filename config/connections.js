@@ -65,14 +65,14 @@ module.exports.connections = {
 //     database: 'Freewheeling'
 //   },
 
-  //  mongodb: {
-  //   adapter: 'sails-mongo',
-  //   host: 'ds063150.mongolab.com',
-  //   port: 63150,
-  //   user: 'sardeenz',
-  //   password: 'red5five',
-  //   database: 'heroku_app32479034'
-  // },
+   mongodb: {
+    adapter: 'sails-mongo',
+    host: 'ds063150.mongolab.com',
+    port: 63150,
+    user: 'sardeenz',
+    password: 'red5five',
+    database: 'heroku_app32479034'
+  },
 
 //mongodb://<dbuser>:<dbpassword>@ds063150.mongolab.com:63150/heroku_app32479034
 
