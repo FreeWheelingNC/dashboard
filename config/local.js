@@ -92,6 +92,28 @@ module.exports = {
 //     database: 'heroku_app32479034'
 //   },
 // }
+connections: {
+  mongodb: {
+    adapter: 'sails-mongo',
+    host: 'ds063150.mongolab.com',
+    port: 63150,
+   user: 'sardeenz',
+   password: 'red5five',
+    database: 'heroku_app32479034'
+    }
+  },
+
+// connections: {
+//   mongodb: {
+//     adapter: 'sails-mongo',
+//     host: 'localhost',
+//     port: 27017,
+
+// //    user: 'username',
+// //    password: 'password',
+//     database: 'Freewheeling'
+//     }
+//   },
    
 
 };
