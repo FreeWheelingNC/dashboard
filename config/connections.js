@@ -56,25 +56,25 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  mongodb: {
-    adapter: 'sails-mongo',
-    host: 'localhost',
-    port: 27017,
-//    user: 'username',
-//    password: 'password',
-    database: 'Freewheeling'
-  },
+//   mongodb: {
+//     adapter: 'sails-mongo',
+//     host: 'localhost',
+//     port: 27017,
+// //    user: 'username',
+// //    password: 'password',
+//     database: 'Freewheeling'
+//   },
 
 //mongodb://<dbuser>:<dbpassword>@ds063150.mongolab.com:63150/heroku_app32479034
 
-//   mongodb: {
-//     adapter: 'sails-mongo',
-//     host: 'ds063150.mongolab.com',
-//     port: 63150,
-// //    user: 'username',
-// //    password: 'password',
-//     database: 'heroku_app32479034'
-//   },
+  mongodb: {
+    adapter: 'sails-mongo',
+    host: 'ds063150.mongolab.com',
+    port: 63150,
+//    user: 'username',
+//    password: 'password',
+    database: 'heroku_app32479034'
+  },
   // **************************************************************************
   // *                                                                          *
   // * PostgreSQL is another officially supported relational database.          *
