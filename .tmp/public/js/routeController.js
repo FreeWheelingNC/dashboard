@@ -23,16 +23,16 @@ angular.module('freewheeling')
         console.log('res = ' + res);
     });
 
-    io.socket.get('/routes');
-    io.socket.on('routes', function (res) {
+    // io.socket.get('/routes');
+    // io.socket.on('routes', function (res) {
 
-        console.log(res);
-        // if (res.verb == 'created') {
-            angular.extend($scope, {
-            geojson: {
-                data: res.data
-                }
-            });
+    //     console.log(res);
+    //     // if (res.verb == 'created') {
+    //         angular.extend($scope, {
+    //         geojson: {
+    //             data: res.data
+    //             }
+    //         });
         // }
         
 
